@@ -1,0 +1,1420 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.profile_photo{
+  height:12rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+
+/* ############################### Hospital Login ####################### */
+element.style {
+  overflow-x: hidden;
+}
+.my-2 {
+  width: 53vh;
+}
+#hospital_login .login {
+  padding: 30px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 20%; 
+  height: 55 vh;
+  width: 60vh;
+  box-shadow: 0px 0px 12px grey;
+  border-radius: 2%;
+}
+
+/* ############################### Patient Login ####################### */
+.my-2 {
+  width: 53vh;
+}
+#patient_login .login {
+  padding: 30px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 15%; 
+  height: 55 vh;
+  width: 60vh;
+  box-shadow: 0px 0px 12px grey;
+  border-radius: 2%;
+}
+
+
+/* ==========================================Hospital Register =================*/
+element.style {
+  overflow-x: hidden;
+}
+#hospital_register .register {
+  padding: 30px;
+  margin-left: 27%;
+  margin-top: 9%;
+  height: 75vh;
+  width: 80vh;
+  box-shadow: 0px 0px 12px grey;
+  border-radius: 2%;
+}
+
+#hospital_register .mb-3{
+    padding-right: 6%;
+}
+
+#hospital_register .textbox{
+height: 30px !important;
+}
+#hospital_register .displayFlex{
+    display: flex !important;
+    flex-direction: row;
+    width: 190%;
+
+}
+
+.textalign-center{
+    align-items: center;    
+}
+#hospital_register .displayFlex-2{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+
+/* ############################### Doctor Register ####################### */
+element.style {
+  overflow-x: hidden;
+}
+#doctor_register .register {
+  padding: 30px;
+  float: right;
+  margin-top: 10%;
+  height: 95vh;
+  width: 80vh;
+  border:  1px solid black;
+  box-shadow: 0px 0px 12px grey;
+  border-radius: 1%;
+}
+.img1{
+ margin-top: 20%;
+}
+ 
+#doctor_register .mb-3{
+  padding-right: 6%;
+}
+
+#doctor_register .textbox{
+height: 30px !important;
+}
+#doctor_register .displayFlex{
+  display: flex !important;
+  flex-direction: row;
+  width: 500px;
+
+}
+
+.textalign-center{
+  align-items: center;    
+}
+#doctor_register .displayFlex-2{
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+/* ############################### Doctor Register ####################### */
+element.style {
+  overflow-x: hidden;
+}
+#patient_register .register {
+  padding: 30px;
+  float: right;
+  margin-top: 9%;
+  height: 86vh;
+  width: 80vh;
+  border:  1px solid black;
+  box-shadow: 0px 0px 12px grey;
+  border-radius: 1%;
+}
+.img1{
+ margin-top: 20%;
+}
+ 
+#patient_register .mb-3{
+  padding-right: 6%;
+}
+
+#patient_register .textbox{
+height: 30px !important;
+}
+#patient_register .displayFlex{
+  display: flex !important;
+  flex-direction: row;
+  width: 500px;
+
+}
+
+.textalign-center{
+  align-items: center;    
+}
+#patient_register .displayFlex-2{
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+
+/* ####################### Home Page ####################### */
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+element.style {
+  overflow-x: hidden;
+}
+#header {
+  z-index: 997;
+  transition: all 0.5s;
+  padding: 22px 0;
+  background: #fff;
+}
+
+#header.header-scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+}
+
+#header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#header .logo h1 a,
+#header .logo h1 a:hover {
+  color: #222222;
+  text-decoration: none;
+}
+
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.underline{
+  text-decoration: none;
+}
+.navbar li {
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #555555;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #3498db;
+}
+
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  background: #3498db;
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #4aa3df;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 30px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #3498db;
+}
+
+.navbar .dropdown:hover>ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover>ul {
+    left: -100%;
+  }
+}
+
+/**
+* Mobile Navigation 
+*/
+.mobile-nav-toggle {
+  color: #222222;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+.mobile-nav-toggle.bi-x {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
+
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(9, 9, 9, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #222222;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover>a {
+  color: #3498db;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+  margin: 15px;
+}
+
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover>a {
+  color: #3498db;
+}
+
+.navbar-mobile .dropdown>.dropdown-active {
+  display: block;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero {
+  width: 100%;
+  height: 70vh;
+  margin-top: 70px;
+}
+
+#hero h9{
+  margin-top:-20% ;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: black;
+}
+
+#hero h2 {
+  color: #484848;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+
+#hero .btn-get-started:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 991px) {
+  #hero {
+    height: 100vh;
+  }
+
+  #hero .animated {
+    animation: none;
+  }
+
+  #hero .hero-img {
+    text-align: center;
+  }
+
+  #hero .hero-img img {
+    width: 50%;
+  }
+}
+element.style {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  #hero {
+    margin-top: 20px;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #hero .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+element.style {
+  overflow-x: hidden;
+}
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f7fbfe;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+
+.section-title h2::before,
+.section-title h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin: 15px 0 0 0;
+}
+
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  background: #f3f9fd;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.clients .col-lg-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients img {
+  width: 50%;
+  filter: grayscale(100);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.clients img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+  .clients img {
+    width: 30%;
+  }
+}
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+element.style {
+  overflow-x: hidden;
+}
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.about .content ul li+li {
+  margin-top: 10px;
+}
+
+.about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #3498db;
+  line-height: 1;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .content .btn-learn-more {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #3498db;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #3498db;
+}
+
+.about .content .btn-learn-more:hover {
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+
+section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+.carousel-root {
+  width: 64% !important;
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+
+.carousel .slide {
+  background: #fff !important;
+  color: black;
+  height: 100%;
+}
+
+.carousel .slide img {
+  width: 139px !important;
+  border-radius: 50%;
+}
+
+.myCarousel {
+  background: #fafafa;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #ddd;
+  height: 286px;
+}
+
+.carousel .control-dots {
+  padding-left: 5px !important;
+  outline: 0;
+  bottom: 5% !important;
+}
+
+.myCarousel h3 {
+  color: #222;
+  font-weight: 100;
+  letter-spacing: 0.2px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.myCarousel h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 500;
+  color: #787878;
+  font-size: 14px;
+}
+
+.myCarousel p {
+  font-weight: 100 !important;
+  line-height: 29px !important;
+  color: #222;
+  font-size: 15px;
+  font-family: sans-serif;
+  max-height: 67px;
+}
+
+.myCarousel p:before {
+  content: "“";
+  color: #aaa;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.myCarousel p:after {
+  content: "”";
+  color: #aaa;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+  line-height: 0;
+}
+
+.carousel .control-dots .dot {
+  box-shadow: none !important;
+  background: #454545 !important;
+  outline: 0;
+}
+
+.carousel.carousel-slider .control-arrow {
+  background: #000 !important;
+  height: 50px !important;
+  position: absolute;
+  top: 35% !important;
+}
+
+.App {
+  text-align: center;
+}
+
+@media only screen and (max-width: 934px) {
+  .carousel-root {
+    outline: 0;
+    width: 93% !important;
+    margin: auto !important;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    display: none !important;
+  }
+  .myCarousel {
+    background: #fafafa;
+    margin-top: -9%;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom: 12.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #ddd;
+    height: 269px;
+  }
+
+  .carousel .slide img {
+    width: 24% !important;
+    border-radius: 50%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.faq .faq-item {
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.faq .faq-item i {
+  color: #8bc4ea;
+  font-size: 24px;
+  float: left;
+  line-height: 0;
+  padding: 13px 0 0 0;
+  margin: 0;
+}
+
+.faq .faq-item h4 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin: 0 0 10px 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+.faq .faq-item p {
+  font-size: 15px;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .contact-about h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #222222;
+}
+
+.contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #888;
+}
+
+.contact .social-links {
+  padding-bottom: 20px;
+}
+
+.contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #3498db;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #3498db;
+}
+
+.contact .social-links a:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.contact .info {
+  color: #444444;
+}
+
+.contact .info i {
+  font-size: 32px;
+  color: #3498db;
+  float: left;
+  line-height: 1;
+}
+
+.contact .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #3498db;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #3498db;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #2383c4;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 15px 0;
+  background: #f8f8f8;
+  min-height: 40px;
+  margin-top: 86px;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 72px;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs ol {
+    margin-top: 10px;
+  }
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #3c3c3c;
+  content: "/";
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+
+  .breadcrumbs ol {
+    display: block;
+  }
+
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #fff;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+}
+
+#footer .credits {
+  font-size: 13px;
+  padding-top: 5px;
+  color: #222222;
+}
+
+#footer .footer-links a {
+  color: #222222;
+  padding-left: 15px;
+}
+
+#footer .footer-links a:first-child {
+  padding-left: 0;
+}
+
+#footer .footer-links a:hover {
+  color: #3498db;
+}
+
+/* 
+################################ Hospital ######################## */
+
+
+.hospitalcard{
+  padding: 1rem;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-left: 2rem;
+  height: 65%;
+  width:28rem;
+  border-radius: 1.5rem;
+  border-color: #888;
+}
+
+.hospital_card_img{
+  height: 50%;
+}
+.hospitalbtn-card{
+
+  align-items: center;
+  width:100%;
+  
+}
+
+.searchbar_pos{
+  align-items: center;
+  margin-left: 25%;
+}
+
+.hospital__searchbar{
+  overflow: hidden !important;
+  margin-top: 10rem;
+  position: fixed;
+ 
+
+  width: 50%;
+}
+
+.card__address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.search__container{
+    text-align: center;
+}
+/* 
+########################Doctor home main page #################### */
+
+.home_doctors{
+  height: 50%;
+  width: 100%;
+}
+/* 
+############################### Patient Hospoital########################## */
+
+.search__bar__dr{
+  position: fixed;
+  z-index: 1200;
+  overflow: hidden;
+  margin-top: 7rem;
+  width: 58%;
+  height:5%;
+  margin-left: 20%;
+  padding: 1rem;;
+  border : 1px solid grey;
+}
+
+.hospital__display{
+  display: flex;
+}
+.hospital__hospital__card{
+  margin-top: 4rem;
+
+}
+.hospital__doctor__card{
+  margin-top: 13rem;
+  margin-left: 5rem;
+}
+
+
+/* 
+############################### Patient Hospoital########################## */
+.search__back__PH{
+  margin-top: 4rem;
+  position:fixed;
+  z-index: 1200;
+  background-color:white;
+  height: 10%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hospital__display{
+  display: flex;
+}
+.hospital__hospital__card{
+  margin-top: 4rem;
+
+}
+.hospital__doctor__card{
+  margin-top: 13rem;
+  margin-left: 5rem;
+}
+
+/* 
+############################ Patient Home######################### */
+/* 
+#######################Doctor Home######################## */
+
+.doctorcard{
+  padding: 1rem;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 13rem;
+  margin-left: 2rem;
+  width:28rem;
+  height: 60%;
+  border-radius: 1.5rem;
+  border-color: #888;
+}
+.doctorcard1{
+  padding: 1rem;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 13rem;
+  margin-left: 2rem;
+  width:28rem;
+  height: 60%;
+  border-radius: 1.5rem;
+  border-color: #888;
+}
+.doctorcardHD{
+  padding: 1rem;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-left: 2rem;
+  width:28rem;
+  height: 70%;
+  border-radius: 1.5rem;
+  border-color: #888;
+}
+
+.doctor__card__imgblock{
+  width:90%;
+  height:25%;
+  margin:  1rem 1rem;
+  align-items: center;
+}
+
+.hospital__dr__card__imgblock{
+  width:90%;
+  height:40%;
+  margin:  1rem 1rem;
+  align-items: center;
+}
+.search__back{
+  margin-top: 6rem;
+  position:fixed;
+  z-index: 1200;
+  background-color:white;
+  height: 10%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.search__bar__dr{
+  position: fixed;
+  z-index: 1200;
+  overflow: hidden;
+  margin-top: 7rem;
+  width: 58%;
+  margin-left: 20%;
+}
+
+.doctor__btn{
+  align-items: center;
+  background-color: #3498db;
+}
+
+/* 
+#####################################Hospital tab########################### */
+.doctor__card__imgblock1{
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  height: 80%;
+  /* border: 2px solid black; */
+}
+
+
+/* ##################################### Table Design ########################################### */
+
+.table-container{
+  margin-top: 8%;
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid black;
+  box-shadow: 0px 0px 4px 4px gray;
+  text-align: center;
+}
+.table-container1{
+  margin-top: 10%;
+  width: 95%;
+  margin-left: 2%;
+  border: 1px solid black;
+  box-shadow: 0px 0px 4px 4px gray;
+  text-align: center;
+}
+
+.thead-dark1{
+  background-color: #000;
+  color: white;
+}
+
+
+#profile .card {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+#profile .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+#profile .card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+}
+
+#profile .gutters-sm {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+#profile .gutters-sm>.col, .gutters-sm>[class*=col-] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+#profile .mb-3, .my-3 {
+  margin-bottom: 1rem!important;
+}
+
+#profile .bg-gray-300 {
+  background-color: #e2e8f0;
+}
+#profile .h-100 {
+  height: 100%!important;
+}
+#profile .shadow-none {
+  box-shadow: none!important;
+}
+
+#profile{
+  margin-top: 10%;
+}
+
+#profile .card1{
+  box-shadow: 0px 0px 2px 2px grey;
+}
+
+.designbtn{
+  margin: 5%;
+  margin-left: 10%;
+  background-color: white;
+}
+
+.designbtn1{
+  margin-left: 40%;
+}
+
+
